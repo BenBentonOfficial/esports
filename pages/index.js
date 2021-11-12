@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
       <Landing />
 
-      <div className="p-20">
+      <div className="lg:p-20 m-4">
       <div className="grid lg:grid-cols-4 lg:gap-8 grid-cols-2 gap-8">
       <GameCard imgURL="images/rocket.jpg" title="Rocket League" subTitle="3v3"/>
       <GameCard imgURL="images/overwatch.png" title="Overwatch" subTitle="6v6"/>
@@ -22,7 +22,7 @@ export default function Home() {
       <GameCard imgURL="images/smash.jpg"title="Smash Bros" subTitle="1v1"/>
       </div>
       </div>
-      <div className="flex justify-evenly" >
+      <div className="flex justify-evenly mt-44" >
         <Carousel />
       </div>
       

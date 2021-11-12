@@ -14,17 +14,18 @@ export default function Home() {
       <Navbar />
       <Landing />
 
-      <div className=" 2xl:mx-2 mx-44">
-      <div className="grid 2xl:grid-cols-4 xl:grid-cols-2 lg:grid-cols-1">
+      <div className="p-20">
+      <div className="grid lg:grid-cols-4 lg:gap-8 grid-cols-2 gap-8">
       <GameCard imgURL="images/rocket.jpg" title="Rocket League" subTitle="3v3"/>
       <GameCard imgURL="images/overwatch.png" title="Overwatch" subTitle="6v6"/>
       <GameCard imgURL="images/league.jpg" title="League of Legends" subTitle="5v5"/>
       <GameCard imgURL="images/smash.jpg"title="Smash Bros" subTitle="1v1"/>
       </div>
       </div>
-      <div className="flex w-full justify-center">
+      <div className="flex justify-evenly" >
         <Carousel />
       </div>
+      
       
       <footer className="flex flex-col text-xs items-center justify-center w-full h-24">
         <p>Created by Benjamin Benton </p>

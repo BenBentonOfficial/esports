@@ -1,9 +1,9 @@
 export default function Carousel() {
   return (
     <>
-      <div class="carousel rounded-box xl:max-w-7xl lg:max-w-4xl max-w-2xl max-h-90 my-48">
+      <div class="carousel rounded-box h-80 w-110 lg:mx-40 mx-8 ">
         <div className="carousel-item">
-          <img src="images/trophy.jpeg"></img>
+          <img className="" src="images/trophy.jpeg"></img>
         </div>
         <div className="carousel-item">
           <img src="images/comp-team.jpeg"></img>

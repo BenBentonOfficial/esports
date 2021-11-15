@@ -30,9 +30,7 @@ export default function Navbar() {
               </label>
             </div>
             <div className="flex-1 px-2 mx-2">
-              <span>
-                BCTAL ESports
-              </span>
+              <span>BCTAL ESports</span>
             </div>
             <div className="flex-none hidden lg:block">
               <ul className="menu horizontal">
@@ -60,17 +58,17 @@ export default function Navbar() {
           <ul className="menu p-4 w-80 bg-base-200">
             <li>
               <Link href="/teams">
-              <a>Teams</a>
+                <a>Teams</a>
               </Link>
             </li>
             <li>
-            <Link href="/info">
-              <a>Info</a>
+              <Link href="/info">
+                <a>Info</a>
               </Link>
             </li>
             <li>
-            <Link href="/">
-              <a>Media</a>
+              <Link href="/">
+                <a>Media</a>
               </Link>
             </li>
           </ul>

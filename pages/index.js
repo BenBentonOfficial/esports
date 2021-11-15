@@ -18,7 +18,7 @@ export default function Home() {
       <OurGames />
       
       <div className="mt-44 ">
-      <h1 className="text-6xl font-bold pb-4 lg:mx-40 mx-8 sm:text-center md:text-left">
+      <h1 className="text-6xl font-bold pb-4 lg:mx-40 mx-4 sm:text-center md:text-left">
         Our{" "}
         <Link href="/">
           <a className="text-blue-600 hover:text-blue-700">Memories</a>

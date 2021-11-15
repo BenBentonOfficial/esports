@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Carousel from "../components/carousel";
+import Footer from "../components/footer";
 import GameCard from "../components/gameCard";
 import Landing from "../components/landing";
 import Navbar from "../components/navbar";
@@ -26,11 +27,7 @@ export default function Home() {
         <Carousel />
       </div>
       
-      
-      <footer className="flex flex-col text-xs items-center justify-center w-full h-24">
-        <p>Created by Benjamin Benton </p>
-        <p>Copyright 2021</p>
-      </footer>
+      <Footer />
     </>
   );
 }

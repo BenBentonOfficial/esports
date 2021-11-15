@@ -1,4 +1,5 @@
 import Carousel from "../components/carousel";
+import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import PlayerCard from "../components/playerCard";
 
@@ -101,6 +102,7 @@ export default function Teams() {
           imgURL="/images/ben_pfp.png"
         />
       </div>
+      <Footer />
     </>
   );
 }

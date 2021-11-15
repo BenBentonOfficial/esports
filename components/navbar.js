@@ -30,7 +30,9 @@ export default function Navbar() {
               </label>
             </div>
             <div className="flex-1 px-2 mx-2">
-              <span>BCTAL ESports</span>
+              <Link href="/">
+              <a><span>BCTAL ESports</span></a>
+              </Link>
             </div>
             <div className="flex-none hidden lg:block">
               <ul className="menu horizontal">

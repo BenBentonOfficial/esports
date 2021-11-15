@@ -8,7 +8,7 @@ export default function GameCard(props){
         <img className="" src={props.imgURL}></img>
       </figure>
       <div className="justify-end card-body items-start">
-        <h2 className="card-title ">{props.title}</h2>
+        <h2 className="card-title xl:text-4xl md:text-2xl sm:text-base ">{props.title}</h2>
         <p className="text-lg italic">{props.subTitle}</p>
       </div>
     </div>

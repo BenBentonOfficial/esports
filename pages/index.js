@@ -22,7 +22,7 @@ export default function Home() {
       <GameCard imgURL="images/smash.jpg"title="Smash Bros" subTitle="1v1"/>
       </div>
       </div>
-      <div className="flex justify-evenly mt-44" >
+      <div className="mt-44 " >
         <Carousel />
       </div>
       

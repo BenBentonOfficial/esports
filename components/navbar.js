@@ -59,13 +59,19 @@ export default function Navbar() {
           <label for="nav-drawer" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 bg-base-200">
             <li>
+              <Link href="/teams">
               <a>Teams</a>
+              </Link>
             </li>
             <li>
+            <Link href="/info">
               <a>Info</a>
+              </Link>
             </li>
             <li>
+            <Link href="/">
               <a>Media</a>
+              </Link>
             </li>
           </ul>
         </div>

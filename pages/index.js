@@ -1,9 +1,10 @@
 import Head from "next/head";
+import Link from "next/link";
 import Carousel from "../components/carousel";
 import Footer from "../components/footer";
-import GameCard from "../components/gameCard";
 import Landing from "../components/landing";
 import Navbar from "../components/navbar";
+import OurGames from "../components/ourGames";
 
 export default function Home() {
   return (
@@ -14,19 +15,18 @@ export default function Home() {
       </Head>
       <Navbar />
       <Landing />
-
-      <div className="lg:p-20 m-4">
-      <div className="grid lg:grid-cols-4 lg:gap-8 grid-cols-2 gap-8">
-      <GameCard imgURL="images/rocket.jpg" title="Rocket League" subTitle="3v3"/>
-      <GameCard imgURL="images/overwatch.png" title="Overwatch" subTitle="6v6"/>
-      <GameCard imgURL="images/league.jpg" title="League of Legends" subTitle="5v5"/>
-      <GameCard imgURL="images/smash.jpg"title="Smash Bros" subTitle="1v1"/>
-      </div>
-      </div>
-      <div className="mt-44 " >
+      <OurGames />
+      
+      <div className="mt-44 ">
+      <h1 className="text-6xl font-bold pb-4 lg:mx-40 mx-8 sm:text-center md:text-left">
+        Our{" "}
+        <Link href="/">
+          <a className="text-blue-600 hover:text-blue-700">Memories</a>
+        </Link>
+      </h1>
         <Carousel />
       </div>
-      
+
       <Footer />
     </>
   );
